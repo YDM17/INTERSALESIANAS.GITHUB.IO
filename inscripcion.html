@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción de Jugadores</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Inscripción de Jugadores</h1>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="posiciones.html">Posiciones de los Grupos</a></li>
+                <li><a href="estadisticas.html">Estadísticas de Jugadores</a></li>
+                <li><a href="tarjetas.html">Tarjetas de Jugadores</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inscripcion">
+            <h2>Formulario de Inscripción</h2>
+            <form id="form-inscripcion">
+                <fieldset>
+                    <legend>Datos del Jugador</legend>
+                    <label for="nombre-equipo">Nombre del Equipo:</label>
+                    <input type="text" id="nombre-equipo" name="nombre-equipo" placeholder="Ej. Los Halcones" required>
+
+                    <label for="jugador-nombre">Nombre del Jugador:</label>
+                    <input type="text" id="jugador-nombre" name="jugador-nombre" placeholder="Ej. Juan Pérez" required>
+
+                    <label for="grado">Grado:</label>
+                    <input type="text" id="grado" name="grado" placeholder="Ej. 10°A" required>
+
+                    <button type="submit">Inscribir Jugador</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Torneo Interclases</p>
+    </footer>
+</body>
+</html>
